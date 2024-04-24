@@ -1,0 +1,1 @@
+# cosmwasm-area-52
