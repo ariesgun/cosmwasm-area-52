@@ -5,7 +5,7 @@ FROM gitpod/workspace-full
 
 RUN rustup default stable
 RUN rustup target add wasm32-unknown-unknown
-RUN rustup update && rustup component add clippy rustfmt
+RUN rustup update stable && rustup component add clippy rustfmt
 # Check cargo version
 RUN cargo --version
 
