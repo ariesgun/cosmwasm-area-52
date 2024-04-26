@@ -12,6 +12,7 @@ RUN cargo --version
 # cargo template plugin and sccache
 # RUN cargo install cargo-generate --features vendored-openssl
 RUN cargo install sccache
+RUN cargo install cosmwasm-check
 
 # Check sccache version
 RUN sccache --version
