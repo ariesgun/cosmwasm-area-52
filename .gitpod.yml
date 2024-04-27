@@ -2,5 +2,5 @@ image: ariesthio/cosmwasm-gitpod:0.1.0
 
 vscode:
   extensions:
-    - matklad.rust-analyzer
-    - oraichain.cosmwasm-ide
+    - rust-lang.rust-analyzer
+    - oraichain.cosmwasm-ide  
